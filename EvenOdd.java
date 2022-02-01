@@ -4,18 +4,20 @@ import java.util.Scanner;
 
 public class EvenOdd {
 
-	public static void main(String[] args) {
+	   public static void main(String[] args) 
+        {
         
-		Scanner sc=new Scanner(System.in);
+	    Scanner sc=new Scanner(System.in);
 	    System.out.println("Enter a Number= ");
-	    int N=sc.nextInt();
+	    int n=sc.nextInt();
 	    
-	    if(N%2==0)
+	    if(n%2==0)
 	    
-             System.out.println("It is a Even Number");
-	    else
+                 System.out.println("It is a Even Number");
+	       
+             else
 	    	
-            System.out.println("It is a odd Number");
+                 System.out.println("It is a odd Number");
 
 	   
 	}
